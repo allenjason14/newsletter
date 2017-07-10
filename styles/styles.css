@@ -1,0 +1,94 @@
+.page-wrapper {
+	position:absolute;
+	background-image: url("/assets/theater.jpeg");
+	background-size: 100% 100%;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	font-family: times;
+}
+
+.form-wrapper {
+
+	height: 60vh;
+	width: 80vw;
+	background-color: #C5C1C0;
+	margin: auto;
+	margin-top:7.5vh;
+	padding:0;
+    box-shadow: 0 0 40px 20px white;
+}
+
+.header-holder {
+	position:relative;
+	top:3vh;
+}
+
+
+.header {
+	text-align: center;
+	color: #8B008B;
+	text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+}
+
+.inputHolder {
+	margin-left:10vw;
+	margin-top: 8vh; 
+	width: 100%;
+}
+
+.textInput {
+	margin-top:8vh;
+	background-color: white;
+	width:20vw;
+}
+
+.logo {
+	margin-top: 13vh;
+	width:15vw;
+	height: 20vh;
+	margin-left:22vw;
+}
+
+.submitButton {
+	position: relative;
+	width:20vw;
+	border:none;
+	margin-left:4vw;
+	align-content: center;
+	background-color: white;
+	top:-13vh;
+}
+
+.thanks {
+	position: relative;
+	top: 7vh;
+	left: 3vw;
+	margin-right: 5vw;
+	word-wrap: break-word;
+}
+
+
+@media (max-width: 505px) { 
+	.logo {
+		visibility: hidden;
+	}
+
+	.inputHolder {
+		margin-left: 5vw;
+	}
+
+	.textInput {
+		width:70vw;
+		display: block;
+		margin-top: 1vh;
+		margin-left: 0;
+	}
+
+
+}
